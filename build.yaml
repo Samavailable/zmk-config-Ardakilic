@@ -22,6 +22,8 @@ include:
     shield: corne_right
   - board: nice_nano//zmk
     shield: reviung41
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: nice_nano//zmk
     shield: contra
   - board: plonck//zmk
